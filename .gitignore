@@ -1,0 +1,20 @@
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar pastas de editores/IDEs
+.vscode/
+.idea/
+
+# Ignorar logs de erro do PHP/Apache
+error_log
+php_errors.log
+
+# Opcional: Se futuramente vocês usarem Composer para alguma biblioteca de PDF ou E-mail
+vendor/
+
+# Ignorar arquivos de backup temporários
+*.bak
+*.swp
+*~
